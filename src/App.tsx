@@ -170,9 +170,13 @@ export default function App() {
   }, [isLoggedIn, userRole]);
 
   // Sync Calendar endpoints
-  const handleSyncCalendar = async () => {
+  const handleSyncCalendar = async (accessToken?: string) => {
     try {
-      const res = await fetch("/api/calendar/sync", { method: "POST" });
+      const res = await fetch("/api/calendar/sync", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ accessToken })
+      });
       if (res.ok) {
         const payload = await res.json();
         showToast(payload.message || "Calendar synced completely", "success");

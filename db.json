@@ -269,6 +269,39 @@
       "cost": 5500,
       "isResolved": false,
       "createdAt": "2026-06-11T14:00:00.000Z"
+    },
+    {
+      "id": "anom6",
+      "meetingId": "meet_sync_unattrib1",
+      "meetingTitle": "Weekly Sunday Tech Review & Walkthrough",
+      "type": "Weekend Session Outlier",
+      "severity": "high",
+      "description": "Meeting takes place on a Sunday. Critical developer cognitive fatigue threshold exceeded. Scheduled rate calculations incur excessive burn of ₹24,000 on off-duty personnel.",
+      "cost": 24000,
+      "isResolved": false,
+      "createdAt": "2026-06-08T20:30:00.000Z"
+    },
+    {
+      "id": "anom7",
+      "meetingId": "meet_sync_rec1",
+      "meetingTitle": "Daily Rapid 45-Minute Standup Sync",
+      "type": "Compounding Recurring Overhead",
+      "severity": "medium",
+      "description": "Daily calendar holds drain focus. Cumulative financial projections show this simple 45-minute sync burns ₹86,000 over a fiscal period. Suggest transitioning to asynchronous boards.",
+      "cost": 86000,
+      "isResolved": false,
+      "createdAt": "2026-06-07T09:00:00.000Z"
+    },
+    {
+      "id": "anom8",
+      "meetingId": "meet_sync_unattrib2",
+      "meetingTitle": "Generic Cross-Functional Sync",
+      "type": "Runaway Unattributed meeting",
+      "severity": "medium",
+      "description": "Low affinity matching score encountered (confidence 0.18). Resource cost of ₹19,250 burns administrative bandwidth without project alignment.",
+      "cost": 19250,
+      "isResolved": false,
+      "createdAt": "2026-06-05T15:00:00.000Z"
     }
   ],
   "audit_logs": [

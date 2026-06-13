@@ -32,6 +32,7 @@ export interface Meeting {
   isRecurring: boolean;
   totalCost: number;
   attendees: string[]; // employee ids or emails
+  syncSource?: 'google' | 'sandbox' | string;
 }
 
 export interface Anomaly {

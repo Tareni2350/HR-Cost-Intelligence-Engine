@@ -318,8 +318,13 @@ export default function DashboardView({ summary, meetings, projects, userRole }:
           <div className="space-y-3">
             {expensiveMeetings.map((m, idx) => (
               <div key={idx} className="p-3 bg-slate-900/60 rounded-xl border border-slate-700/30 flex justify-between items-center gap-3">
-                <div className="min-w-0">
-                  <p className="text-xs font-semibold text-white truncate">{m.title}</p>
+                <div className="min-w-0 flex-1">
+                  <div className="flex items-center gap-1.5 min-w-0">
+                    <p className="text-xs font-semibold text-white truncate" title={m.title}>{m.title}</p>
+                    {m.syncSource === "google" && (
+                      <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse shrink-0" title="Real Google Calendar Event" />
+                    )}
+                  </div>
                   <p className="text-[10px] text-slate-400 flex items-center gap-1.5 mt-1">
                     <span>{m.durationMinutes} mins</span>
                     <span>•</span>
