@@ -1,0 +1,308 @@
+{
+  "employees": [
+    {
+      "id": "emp1",
+      "name": "Rajesh Kumar",
+      "email": "rajesh.kumar@enterprise.com",
+      "role": "Product Manager",
+      "department": "Product",
+      "hourlyRate": 2500,
+      "salaryBand": "Band D",
+      "createdAt": "2026-01-10T00:00:00.000Z"
+    },
+    {
+      "id": "emp2",
+      "name": "Sneha Sharma",
+      "email": "sneha.sharma@enterprise.com",
+      "role": "Senior Tech Lead",
+      "department": "Engineering",
+      "hourlyRate": 2200,
+      "salaryBand": "Band D",
+      "createdAt": "2026-01-15T00:00:00.000Z"
+    },
+    {
+      "id": "emp3",
+      "name": "Amit Patel",
+      "email": "amit.patel@enterprise.com",
+      "role": "Senior Software Engineer",
+      "department": "Engineering",
+      "hourlyRate": 1800,
+      "salaryBand": "Band C",
+      "createdAt": "2026-02-01T00:00:00.000Z"
+    },
+    {
+      "id": "emp4",
+      "name": "Priya Iyer",
+      "email": "priya.iyer@enterprise.com",
+      "role": "Software Engineer",
+      "department": "Engineering",
+      "hourlyRate": 1200,
+      "salaryBand": "Band B",
+      "createdAt": "2026-03-10T00:00:00.000Z"
+    },
+    {
+      "id": "emp5",
+      "name": "Vikram Singh",
+      "email": "vikram.singh@enterprise.com",
+      "role": "QA Engineer",
+      "department": "QA",
+      "hourlyRate": 1000,
+      "salaryBand": "Band B",
+      "createdAt": "2026-04-05T00:00:00.000Z"
+    },
+    {
+      "id": "emp6",
+      "name": "Anjali Mehta",
+      "email": "anjali.mehta@enterprise.com",
+      "role": "UI/UX Designer",
+      "department": "Product Design",
+      "hourlyRate": 1500,
+      "salaryBand": "Band C",
+      "createdAt": "2026-02-15T00:00:00.000Z"
+    },
+    {
+      "id": "emp7",
+      "name": "David Vance",
+      "email": "david.vance@enterprise.com",
+      "role": "Engineering Director",
+      "department": "Leadership",
+      "hourlyRate": 3500,
+      "salaryBand": "Band E",
+      "createdAt": "2025-11-01T00:00:00.000Z"
+    },
+    {
+      "id": "emp8",
+      "name": "Neha Gupta",
+      "email": "neha.gupta@enterprise.com",
+      "role": "HR Manager",
+      "department": "Human Resources",
+      "hourlyRate": 1200,
+      "salaryBand": "Band B",
+      "createdAt": "2026-05-12T00:00:00.000Z"
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj1",
+      "name": "AI Recruitment Platform",
+      "description": "Leverage AI models to scan resumes and automate initial screening interviews.",
+      "budget": 850000,
+      "status": "active"
+    },
+    {
+      "id": "proj2",
+      "name": "NextGen Mobile Client",
+      "description": "Rewrite the React Native workspace app with offline-first support and instant synchronization.",
+      "budget": 500000,
+      "status": "active"
+    },
+    {
+      "id": "proj3",
+      "name": "Legacy Cloud Migration",
+      "description": "Migrate legacy on-premise compute workloads and SQL servers to high-efficiency Cloud Run nodes.",
+      "budget": 350000,
+      "status": "completed"
+    },
+    {
+      "id": "proj4",
+      "name": "Internal Admin & Operations",
+      "description": "Routine operational syncing, training sessions, and HR administrative activities.",
+      "budget": 150000,
+      "status": "active"
+    }
+  ],
+  "meetings": [
+    {
+      "id": "meet1",
+      "title": "Architecture Alignment & GraphQL Strategy",
+      "description": "Technical alignment session discussing query batching and DB schema updates for the NextGen Mobile layout. Discussed bottlenecks in mobile sync APIs.",
+      "startTime": "2026-06-12T10:00:00.000Z",
+      "endTime": "2026-06-12T11:30:00.000Z",
+      "durationMinutes": 90,
+      "organizerEmail": "sneha.sharma@enterprise.com",
+      "projectId": "proj2",
+      "attributionConfidence": 0.95,
+      "attributionReasoning": "Explicit technical mapping: GraphQL strategies are mapped strictly to NextGen Mobile Client rewrite.",
+      "isRecurring": false,
+      "totalCost": 9600,
+      "attendees": [
+        "emp1",
+        "emp2",
+        "emp3"
+      ]
+    },
+    {
+      "id": "meet2",
+      "title": "AI Resume Parsing Pipeline Setup",
+      "description": "Code walkthrough of Gemini extraction models and JSON parsers for candidate grading models.",
+      "startTime": "2026-06-11T14:00:00.000Z",
+      "endTime": "2026-06-11T15:00:00.000Z",
+      "durationMinutes": 60,
+      "organizerEmail": "rajesh.kumar@enterprise.com",
+      "projectId": "proj1",
+      "attributionConfidence": 0.98,
+      "attributionReasoning": "Resume parsing pipeline aligns 100% with AI Recruitment Platform scan automations.",
+      "isRecurring": false,
+      "totalCost": 5500,
+      "attendees": [
+        "emp1",
+        "emp2",
+        "emp4"
+      ]
+    },
+    {
+      "id": "meet3",
+      "title": "Massive Weekly Status Round-table Sync",
+      "description": "Standard daily alignment with the entire organization. Every department gives a 5 minute update of status goals, regardless of relevance.",
+      "startTime": "2026-06-10T09:00:00.000Z",
+      "endTime": "2026-06-10T11:00:00.000Z",
+      "durationMinutes": 120,
+      "organizerEmail": "david.vance@enterprise.com",
+      "projectId": "proj4",
+      "attributionConfidence": 0.65,
+      "attributionReasoning": "General status discussion defaulted to Internal Operations due to non-specific project alignment.",
+      "isRecurring": true,
+      "totalCost": 29800,
+      "attendees": [
+        "emp1",
+        "emp2",
+        "emp3",
+        "emp4",
+        "emp5",
+        "emp6",
+        "emp7",
+        "emp8"
+      ]
+    },
+    {
+      "id": "meet4",
+      "title": "Random Coffee & Watercooler Alignment Session",
+      "description": "Informal chat without preset agenda. Discussing weekend plans and office canteen coffee preferences.",
+      "startTime": "2026-06-09T16:00:00.000Z",
+      "endTime": "2026-06-09T17:30:00.000Z",
+      "durationMinutes": 90,
+      "organizerEmail": "priya.iyer@enterprise.com",
+      "attributionConfidence": 0.75,
+      "attributionReasoning": "The meeting is an informal social and alignment chat with no specific technical agenda, making it best suited for the general internal operations and administrative category.",
+      "isRecurring": false,
+      "totalCost": 11100,
+      "attendees": [
+        "emp2",
+        "emp4",
+        "emp5",
+        "emp7",
+        "emp8"
+      ],
+      "projectId": "proj4"
+    },
+    {
+      "id": "meet5",
+      "title": "Database Performance Finetuning",
+      "description": "Troubleshooting read replicas and high index latch times for Postgres database instances in SQL engines.",
+      "startTime": "2026-06-08T11:00:00.000Z",
+      "endTime": "2026-06-08T12:00:00.000Z",
+      "durationMinutes": 60,
+      "organizerEmail": "sneha.sharma@enterprise.com",
+      "projectId": "proj3",
+      "attributionConfidence": 0.91,
+      "attributionReasoning": "Postgres tuning matched the database migrations in cloud migration pipelines.",
+      "isRecurring": false,
+      "totalCost": 4000,
+      "attendees": [
+        "emp2",
+        "emp3"
+      ]
+    }
+  ],
+  "anomalies": [
+    {
+      "id": "anom1",
+      "meetingId": "meet3",
+      "meetingTitle": "Massive Weekly Status Round-table Sync",
+      "type": "Excessive Attendee Count",
+      "severity": "high",
+      "description": "The meeting contains 8 attendees, resulting in an hourly rate of ₹14,900. Total cost incurred is ₹29,800. AI advises moving to asynchronous Slack summaries.",
+      "cost": 29800,
+      "isResolved": false,
+      "createdAt": "2026-06-10T11:05:00.000Z"
+    },
+    {
+      "id": "anom2",
+      "meetingId": "meet4",
+      "meetingTitle": "Random Coffee & Watercooler Alignment Session",
+      "type": "Unattributed social bloat",
+      "severity": "medium",
+      "description": "Meeting is not attributed to any specific delivery milestone. Cost of ₹13,800 is being burned in social chat and general watercooler alignment.",
+      "cost": 13800,
+      "isResolved": false,
+      "createdAt": "2026-06-09T17:35:00.000Z"
+    },
+    {
+      "id": "anom3",
+      "meetingId": "meet1",
+      "meetingTitle": "Architecture Alignment & GraphQL Strategy",
+      "type": "Redundant Leadership Presence",
+      "severity": "medium",
+      "description": "High-density leadership overlap detected. Multiple Product Managers and Engineering Directors in attendance simultaneously. Suggest narrowing roster.",
+      "cost": 9600,
+      "isResolved": false,
+      "createdAt": "2026-06-12T10:00:00.000Z"
+    },
+    {
+      "id": "anom4",
+      "meetingId": "meet5",
+      "meetingTitle": "Database Performance Finetuning",
+      "type": "Out of Hours Co-efficient Surge",
+      "severity": "low",
+      "description": "Ad-hoc troubleshooting sessions scheduled outside core core-hours. Correlates with engineer fatigue and burnout telemetry risks.",
+      "cost": 4000,
+      "isResolved": false,
+      "createdAt": "2026-06-08T11:00:00.000Z"
+    },
+    {
+      "id": "anom5",
+      "meetingId": "meet2",
+      "meetingTitle": "AI Resume Parsing Pipeline Setup",
+      "type": "Recurring Block Bloat",
+      "severity": "high",
+      "description": "Overlapping daily calendar holds detected for the same core engineers. Cumulative blocks reduce pure engineering execution duration by 40%.",
+      "cost": 5500,
+      "isResolved": false,
+      "createdAt": "2026-06-11T14:00:00.000Z"
+    }
+  ],
+  "audit_logs": [
+    {
+      "id": "log4",
+      "timestamp": "2026-06-13T07:16:16.117Z",
+      "user": "Compliance Manager",
+      "role": "admin",
+      "action": "ANOMALY_RESOLVED",
+      "details": "Resolution action marked for anomaly ID 'anom1' concerning meeting 'Massive Weekly Status Round-table Sync'."
+    },
+    {
+      "id": "log3",
+      "timestamp": "2026-06-13T07:14:39.306Z",
+      "user": "Gemini AI Classifier",
+      "role": "admin",
+      "action": "AI_PROJECT_ATTRIBUTION",
+      "details": "Successfully mapped meeting 'Random Coffee & Watercooler Alignment Session' to project 'Internal Admin & Operations' with confidence 75%"
+    },
+    {
+      "id": "log1",
+      "timestamp": "2026-06-12T18:00:00.000Z",
+      "user": "System Scheduler",
+      "role": "admin",
+      "action": "NIGHTLY_CALENDAR_SYNC",
+      "details": "Fetched 5 core meeting intervals. Successfully calculated cost matrices."
+    },
+    {
+      "id": "log2",
+      "timestamp": "2026-06-12T19:30:00.000Z",
+      "user": "David Vance",
+      "role": "admin",
+      "action": "RATE_MULTIPLIER_ADJUSTED",
+      "details": "Increased Senior Software Engineer billing grade by 5% to combat market rate fluctuation."
+    }
+  ]
+}

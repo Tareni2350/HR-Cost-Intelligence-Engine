@@ -1,0 +1,6 @@
+{
+  "name": "HR Cost Intelligence Engine",
+  "description": "An AI-powered platform that analyzes employee meetings, attributes them to projects, calculates dynamic HR meeting costs, detects anomalies, and provides visibility.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
