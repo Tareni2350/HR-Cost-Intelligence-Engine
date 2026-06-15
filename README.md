@@ -1,4 +1,4 @@
-# HR Cost Intelligence Engine (Enterprise MVP)
+# HR Cost Intelligence Engine 
 
 An AI-powered Enterprise FinOps platform that automatically monitors and analyzes corporate calendars, dynamically attributes meeting instances to projects using LLMs, assesses dynamic employee hourly rates to calculate financial burn loss, detects compliance anomalies, and provides executive-grade visibility.
 
@@ -24,8 +24,6 @@ An AI-powered Enterprise FinOps platform that automatically monitors and analyze
 
 ## 🚀 Active Workplace Demo Guide
 
-Give judges an exceptional walk-through in 4 direct steps:
-
 ### 1. The Dynamic Ticker (Burn Meter)
 Navigate to the **Real-Time Meter**. Start the clock. Watch the costs rise live in Indian Rupees (₹) calculated cleanly across individual attendee hourly rate coefficients (Rajesh, Sneha, Amit, Priya).
 
@@ -39,6 +37,16 @@ Check out **Watchdog Alerts**. Click **"AI Audit"** on the *Massive Status Sync*
 Open **AI Analyst Copilot**. Ask the template query: *"Which project consumed the highest budget this month?"*. The model checks database context and answers in conversational executive tone with precise numbers.
 
 ---
+
+## Screenshots:
+<img width="1440" height="900" alt="Screenshot 2026-06-13 at 3 16 02 PM" src="https://github.com/user-attachments/assets/a99fbded-3f57-4dbf-8c0f-75fa9fb05481" />
+<img width="1440" height="900" alt="Screenshot 2026-06-13 at 3 16 09 PM" src="https://github.com/user-attachments/assets/70b118ae-b684-4acb-b26e-bed6693a663a" />
+<img width="1440" height="900" alt="Screenshot 2026-06-13 at 3 16 18 PM" src="https://github.com/user-attachments/assets/9ecda60d-bf4c-4ad1-b56a-911050c55250" />
+<img width="1440" height="900" alt="Screenshot 2026-06-13 at 3 16 25 PM" src="https://github.com/user-attachments/assets/ab0f2e9c-71a8-4465-850e-b83f391bc9ee" />
+<img width="1440" height="900" alt="Screenshot 2026-06-13 at 3 16 29 PM" src="https://github.com/user-attachments/assets/d35cfb11-0bfd-45bf-8a99-378f16c35e9e" />
+<img width="1440" height="900" alt="Screenshot 2026-06-13 at 3 16 35 PM" src="https://github.com/user-attachments/assets/9791b5ae-78f1-4599-8812-427c6de3cec3" />
+<img width="1440" height="900" alt="Screenshot 2026-06-13 at 3 16 38 PM" src="https://github.com/user-attachments/assets/d5e18a2b-cc79-4c9c-bb3b-83b6f172c54e" />
+
 
 ## ⚙️ Quickstart Setup
 
